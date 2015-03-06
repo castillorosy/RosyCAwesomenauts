@@ -29,5 +29,6 @@ game.PlayerEntity = me.Entity.extend({
         this.body.vel.x = 0;
     }
     this.body.update(delta);
+    return true; 
 }
 });
